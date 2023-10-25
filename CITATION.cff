@@ -1,0 +1,24 @@
+# -----------------------------------------------------------
+# CITATION file created with {cffr} R package, v0.5.0
+# See also: https://docs.ropensci.org/cffr/
+# -----------------------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "chckapmalawi" in publications use:'
+type: software
+license: CC-BY-4.0
+title: 'chckapmalawi: Community Health Club Knowledge Attitude Practice Survey Malawi'
+version: 0.0.0.9000
+abstract: A survey conducted by BASEflow for Waste Advisers, Malawi. The survey was
+  implemented in 20XX.
+authors:
+- family-names: Schöbitz
+  given-names: Lars
+  email: lschoebitz@ethz.ch
+  orcid: https://orcid.org/0000-0003-2196-5015
+date-released: '2023-10-25'
+contact:
+- family-names: Schöbitz
+  given-names: Lars
+  email: lschoebitz@ethz.ch
+  orcid: https://orcid.org/0000-0003-2196-5015
