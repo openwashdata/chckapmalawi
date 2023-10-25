@@ -2,5 +2,4 @@ directory, file_name, variable_name, variable_type, description
 data, chckapmalawi.rda, village, character, Village in Malawi.
 data, chckapmalawi.rda, gender, character, Gender of the respondent.
 data, chckapmalawi.rda, age, double, Age of the respondent.
-data, chckapmalawi.rda, water_pay, Question: Do you believe you should pay for your water?
-
+data, chckapmalawi.rda, water_pay, character, Question: Do you believe you should pay for your water?
