@@ -21,6 +21,9 @@ chckapmalawi <- dataset |>
          age = how_old_are_you,
          water_pay = do_you_believe_you_should_pay_for_your_water)
 
+chckapmalawi |>
+  count(water_pay)
+
 ## code to prepare a tidy, analysis-ready dataset goes here
 
 # write data --------------------------------------------------------------
