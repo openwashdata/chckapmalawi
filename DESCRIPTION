@@ -1,10 +1,29 @@
 Package: chckapmalawi
-Title: Community Health Club Knowledge Attitude Practice Survey Malawi
+Title: Knowledge, Attitudes and Practices (KAP) Survey about Community Health Centers (CHC) in Malawi
 Version: 0.0.0.9000
-Authors@R: 
-    person("Lars", "Schöbitz", , "lschoebitz@ethz.ch", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0003-2196-5015"))
-Description: A survey conducted by BASEflow for Waste Advisers, Malawi. The survey was implemented in 20XX.
+Authors@R: c(
+    person("Sophia", "Skorik", , "sskorik@ethz.ch", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0001-4755-1649")),
+    person("Lars", "Schöbitz", , "lschoebitz@ethz.ch", role = "aut",
+           comment = c(ORCID = "0000-0003-2196-5015")),
+    person("Rhodrick", "Sagawa", , "rhodrick@baseflowmw.org", role = "aut",
+       comment = c(ORCID = "0009-0004-7294-4120")),
+    person("Paul", "Kumpukwe", , "paul@baseflowmw.org", role = "aut",
+           comment = c(ORCID = "0009-0002-8797-8046")),
+    person("Veronica", "Chinangwa", , "veronica@baseflowmw.org", role = "aut",
+           comment = c(ORCID = "0009-0005-7549-9584")),
+    person("Baleke", "Banda", , "baleke@baseflowmw.org", role = "aut",
+           comment = c(ORCID = "0009-0005-7582-1238")),
+    person("Rodney", "Kananji", , "rodney@baseflowmw.org", role = "aut",
+           comment = c(ORCID = "0009-0005-5277-9778")),
+    person("Feston", "Bwanyula", , "feston@baseflowmw.org", role = "aut",
+           comment = c(ORCID = "0009-0000-6731-5048")),
+    person("Gloria", "Maliana", , "malianagloria24@gmail.com", role = "aut",
+           comment = c(ORCID = "0009-0003-0563-3579")),
+    person("Given", "Ngwira", , "given@baseflowmw.org", role = "aut",
+           comment = c(ORCID = "0009-0002-7847-4057"))
+           )
+Description: This dataset captures insights from a Knowledge, Attitudes, and Practices (KAP) Survey conducted by BASEflow for Waste Advisers in Malawi, focusing on Community Health Centers (CHCs). It covers diverse aspects including household demographics, CHC membership, water sources, sanitation, nutrition knowledge, hygiene practices, and environmental conditions.
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

@@ -1,6 +1,6 @@
 #' Knowledge, Attitudes and Practices (KAP) Survey about Community Health Centers (CHC) in Malawi
 #'
-#'This dataset captures insights from a Knowledge, Attitudes, and Practices (KAP) Survey conducted
+#'This dataset captures insights from a Knowledge, Attitudes, and Practices (KAP) Survey conducted by BASEflow for Waste Advisers
 #'in Malawi, focusing on Community Health Centers (CHCs). It covers diverse aspects including household
 #'demographics, CHC membership, water sources, sanitation, nutrition knowledge, hygiene practices, and environmental conditions.
 #'

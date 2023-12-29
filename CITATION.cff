@@ -7,18 +7,58 @@ cff-version: 1.2.0
 message: 'To cite package "chckapmalawi" in publications use:'
 type: software
 license: CC-BY-4.0
-title: 'chckapmalawi: Community Health Club Knowledge Attitude Practice Survey Malawi'
+title: 'chckapmalawi: Knowledge, Attitudes and Practices (KAP) Survey about Community
+  Health Centers (CHC) in Malawi'
 version: 0.0.0.9000
-abstract: A survey conducted by BASEflow for Waste Advisers, Malawi. The survey was
-  implemented in 20XX.
+abstract: This dataset captures insights from a Knowledge, Attitudes, and Practices
+  (KAP) Survey conducted by BASEflow for Waste Advisers in Malawi, focusing on Community
+  Health Centers (CHCs). It covers diverse aspects including household demographics,
+  CHC membership, water sources, sanitation, nutrition knowledge, hygiene practices,
+  and environmental conditions.
 authors:
+- family-names: Skorik
+  given-names: Sophia
+  email: sskorik@ethz.ch
+  orcid: https://orcid.org/0009-0001-4755-1649
 - family-names: Schöbitz
   given-names: Lars
   email: lschoebitz@ethz.ch
   orcid: https://orcid.org/0000-0003-2196-5015
-date-released: '2023-10-25'
+- family-names: Sagawa
+  given-names: Rhodrick
+  email: rhodrick@baseflowmw.org
+  orcid: https://orcid.org/0009-0004-7294-4120
+- family-names: Kumpukwe
+  given-names: Paul
+  email: paul@baseflowmw.org
+  orcid: https://orcid.org/0009-0002-8797-8046
+- family-names: Chinangwa
+  given-names: Veronica
+  email: veronica@baseflowmw.org
+  orcid: https://orcid.org/0009-0005-7549-9584
+- family-names: Banda
+  given-names: Baleke
+  email: baleke@baseflowmw.org
+  orcid: https://orcid.org/0009-0005-7582-1238
+- family-names: Kananji
+  given-names: Rodney
+  email: rodney@baseflowmw.org
+  orcid: https://orcid.org/0009-0005-5277-9778
+- family-names: Bwanyula
+  given-names: Feston
+  email: feston@baseflowmw.org
+  orcid: https://orcid.org/0009-0000-6731-5048
+- family-names: Maliana
+  given-names: Gloria
+  email: malianagloria24@gmail.com
+  orcid: https://orcid.org/0009-0003-0563-3579
+- family-names: Ngwira
+  given-names: Given
+  email: given@baseflowmw.org
+  orcid: https://orcid.org/0009-0002-7847-4057
+date-released: '2023-12-29'
 contact:
-- family-names: Schöbitz
-  given-names: Lars
-  email: lschoebitz@ethz.ch
-  orcid: https://orcid.org/0000-0003-2196-5015
+- family-names: Skorik
+  given-names: Sophia
+  email: sskorik@ethz.ch
+  orcid: https://orcid.org/0009-0001-4755-1649

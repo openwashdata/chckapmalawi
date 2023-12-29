@@ -1,0 +1,9 @@
+
+bibentry(bibtype = "Misc",
+         key = "schobitz",
+         title = "chckapmalawi: Community Health Club Knowledge Attitude Practice Survey Malawi",
+         author = person(given = "Lars",
+                         family = "Schöbitz"),
+         year = "2023",
+         abstract = "A survey conducted by BASEflow for Waste Advisers, Malawi. The survey was implemented in 20XX.",
+         version = "0.0.0.9000")
