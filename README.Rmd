@@ -11,14 +11,20 @@ knitr::opts_chunk$set(
   fig.path = "man/figures/README-",
   out.width = "100%"
 )
+
+library(tidyverse)
+library(epoxy)
+library(leaflet)
+library(chckapmalawi)
 ```
 
 # chckapmalawi
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/openwashdata/chckapmalawi/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/openwashdata/chckapmalawi/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of chckapmalawi is to ...
+This packages compiles insights from a Knowledge, Attitudes, and Practices (KAP) Survey conducted by [BASEflow](https://baseflowmw.org/) for Waste Advisers in Malawi, focusing on Community Health Centers (CHCs). 
 
 ## Installation
 
@@ -28,27 +34,69 @@ You can install the development version of chckapmalawi from [GitHub](https://gi
 # install.packages("devtools")
 devtools::install_github("openwashdata/chckapmalawi")
 ```
+Alternatively, you can download the individual dataset as a CSV or XLSX
+file from the table below.
+
+```{r, echo=FALSE}
+library(dplyr)
+library(stringr)
+library(readr)
+
+extdata_path <- "https://github.com/openwashdata/chckapmalawi/raw/main/inst/extdata/"
+
+read_csv("data-raw/dictionary.csv", col_types = cols(.default = "c")) |> 
+  distinct(file_name) |> 
+  mutate(file_name = str_remove(file_name, ".rda")) |> 
+  rename(dataset = file_name) |> 
+  mutate(
+    CSV = paste0("[Download CSV](", extdata_path, dataset, ".csv)"),
+    XLSX = paste0("[Download XLSX](", extdata_path, dataset, ".xlsx)")
+  ) |> 
+  knitr::kable(show_col_types = FALSE)
+
+```
+
+## Project goal
+
+
+
+## Data
+
+The data set covers diverse aspects including household demographics, CHC membership, water sources, sanitation, nutrition knowledge, hygiene practices, and environmental conditions. It was collected in 20XX. 
+
+The package provides access to a single data sets.
+
+```{r, echo = TRUE}
+library(chckapmalawi)
+```
+
+The `chckapmalawi` data set has `r ncol(chckapmalawi)`
+variables and `r nrow(chckapmalawi)` observations. For an overview
+of the variable names, see the following table.
+
+```{r, eval=FALSE}
+chckapmalawi
+```
+
+```{r, echo=FALSE}
+readr::read_csv("data-raw/dictionary.csv", col_types = cols(.default = "c")) |> 
+  dplyr::filter(file_name == "chckapmalawi.rda") |> 
+  dplyr::select(variable_name:description) |> 
+  knitr::kable()
+```
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
 
-```{r example}
-library(chckapmalawi)
-library(tidyverse)
-## basic example code
-```
+## License
 
-```{r}
-chckapmalawi |> 
-  count(water_pay)
-```
+Data are available as 
+[CC-BY](https://github.com/openwashdata/basisghana/LICENSE.md).
 
+## Citation
+
+To cite this package, please use:
 
 ```{r}
-
-chckapmalawi |> 
-  ggplot(aes(x = water_pay)) +
-  geom_bar()
+citation("chckapmalawi")
 ```
-
