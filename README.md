@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![DOI](https://zenodo.org/badge/709679915.svg)](https://zenodo.org/doi/10.5281/zenodo.10459432)
 [![R-CMD-check](https://github.com/openwashdata/chckapmalawi/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/openwashdata/chckapmalawi/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
@@ -213,7 +214,6 @@ library(dplyr)
 library(tidyr)
 library(rAmCharts4)
 #> Warning: Paket 'rAmCharts4' wurde unter R Version 4.3.2 erstellt
-library(htmlwidgets)
 
 chckapmalawi$vegetables_grown_in_garden <- gsub("Other \\(please specify\\)", "Other", chckapmalawi$vegetables_grown_in_garden)
 
