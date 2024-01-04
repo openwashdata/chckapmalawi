@@ -4,11 +4,14 @@
 # chckapmalawi
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/openwashdata/chckapmalawi/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/openwashdata/chckapmalawi/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 This packages compiles insights from a Knowledge, Attitudes, and
-Practices (KAP) Survey conducted by BASEflow for Waste Advisers in
-Malawi, focusing on Community Health Centers (CHCs).
+Practices (KAP) Survey conducted by [BASEflow](https://baseflowmw.org/)
+for Waste Advisers in Malawi, focusing on Community Health Centers
+(CHCs).
 
 ## Installation
 
@@ -197,6 +200,54 @@ chckapmalawi
 | litter_free_environment                    | character     | Observe: Litter-free environment (including animal droppings)                                                                                           |
 
 ## Example
+
+### Visualizing Vegetable Distribution in Malawi Gardens
+
+This code snippet utilizes rAmCharts4 in R to visualize vegetable
+diversity in Malawian gardens. By displaying the distribution of crops
+grown, it highlights how Malawians can self-provide a diverse range of
+vegetables, crucial for a balanced diet.
+
+``` r
+library(dplyr)
+library(tidyr)
+library(rAmCharts4)
+#> Warning: Paket 'rAmCharts4' wurde unter R Version 4.3.2 erstellt
+library(htmlwidgets)
+
+chckapmalawi$vegetables_grown_in_garden <- gsub("Other \\(please specify\\)", "Other", chckapmalawi$vegetables_grown_in_garden)
+
+split_data <- chckapmalawi |> 
+  separate_rows(vegetables_grown_in_garden, sep = ",\\s*") |> 
+  mutate(vegetables_grown_in_garden = trimws(vegetables_grown_in_garden)) |> 
+  filter(vegetables_grown_in_garden != "")  
+
+vegetable_freq <- table(split_data$vegetables_grown_in_garden)
+vegetable_freq_df <- as.data.frame(vegetable_freq)
+names(vegetable_freq_df) <- c("Vegetable", "Frequency")
+
+vegetable_freq_df$Percentage <- vegetable_freq_df$Frequency / sum(vegetable_freq_df$Frequency) * 100
+
+chart <- amPieChart(
+  data = vegetable_freq_df,
+  category = "Vegetable",
+  value = "Frequency",
+  depth = 30, 
+  legend = FALSE, 
+  chartTitle = "Vegetables Grown in Garden (Malawi)",
+  animated = 1,
+  theme = "spiritedaway"
+) 
+```
+
+<div class="figure">
+
+<img src="man/figures/vegetables_plot.png" alt="Screenshot of an interactive pie chart with rAmCharts4" width="75%" />
+<p class="caption">
+Screenshot of an interactive pie chart with rAmCharts4
+</p>
+
+</div>
 
 ## License
 
