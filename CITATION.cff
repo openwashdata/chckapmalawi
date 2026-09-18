@@ -8,7 +8,7 @@ message: 'To cite package "chckapmalawi" in publications use:'
 type: dataset
 license: CC-BY-4.0
 title: 'chckapmalawi: KAP Survey on Community Health Centers in Malawi'
-version: 0.0.0.9000
+version: 0.0.2
 doi: 10.5281/zenodo.10459432
 abstract: This dataset captures insights from a Knowledge, Attitudes, and Practices
   (KAP) Survey conducted by BASEflow for Waste Advisers in Malawi, focusing on Community
