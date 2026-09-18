@@ -1,15 +1,15 @@
-# -----------------------------------------------------------
-# CITATION file created with {cffr} R package, v0.5.0
+# ------------------------------------------------
+# CITATION.cff file created with {cffr} R package
 # See also: https://docs.ropensci.org/cffr/
-# -----------------------------------------------------------
+# ------------------------------------------------
  
 cff-version: 1.2.0
 message: 'To cite package "chckapmalawi" in publications use:'
-type: software
+type: dataset
 license: CC-BY-4.0
-title: 'chckapmalawi: Knowledge, Attitudes and Practices (KAP) Survey about Community
-  Health Centers (CHC) in Malawi'
+title: 'chckapmalawi: KAP Survey on Community Health Centers in Malawi'
 version: 0.0.0.9000
+doi: 10.5281/zenodo.10459432
 abstract: This dataset captures insights from a Knowledge, Attitudes, and Practices
   (KAP) Survey conducted by BASEflow for Waste Advisers in Malawi, focusing on Community
   Health Centers (CHCs). It covers diverse aspects including household demographics,
@@ -56,9 +56,19 @@ authors:
   given-names: Given
   email: given@baseflowmw.org
   orcid: https://orcid.org/0009-0002-7847-4057
-date-released: '2023-12-29'
+repository-code: https://github.com/openwashdata/chckapmalawi
+url: https://github.com/openwashdata/chckapmalawi
+date-released: '2026-09-18'
 contact:
 - family-names: Skorik
   given-names: Sophia
   email: sskorik@ethz.ch
   orcid: https://orcid.org/0009-0001-4755-1649
+keywords:
+- open data
+- washdata
+- community health
+- KAP survey
+- WASH
+- Malawi
+

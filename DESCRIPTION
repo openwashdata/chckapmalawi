@@ -1,5 +1,5 @@
 Package: chckapmalawi
-Title: Knowledge, Attitudes and Practices (KAP) Survey about Community Health Centers (CHC) in Malawi
+Title: KAP Survey on Community Health Centers in Malawi
 Version: 0.0.0.9000
 Authors@R: c(
     person("Sophia", "Skorik", , "sskorik@ethz.ch", role = c("aut", "cre"),
@@ -27,9 +27,13 @@ Description: This dataset captures insights from a Knowledge, Attitudes, and Pra
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
 Depends: 
     R (>= 2.10)
 LazyData: true
 Language: en-GB
-Date: 2023-10-25
+Date: 2026-09-18
+X-schema.org-keywords: open data, washdata, community health, KAP survey, WASH, Malawi
+Config/Needs/website: rmarkdown
+URL: https://github.com/openwashdata/chckapmalawi
+BugReports: https://github.com/openwashdata/chckapmalawi/issues
+Config/roxygen2/version: 8.0.0
