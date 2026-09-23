@@ -27,7 +27,7 @@
 ## Citation
 
 Source:
-[`inst/CITATION`](https://github.com/openwashdata/chckapmalawi/blob/main/inst/CITATION)
+[`inst/CITATION`](https://github.com/openwashdata/chckapmalawi/blob/v0.0.2/inst/CITATION)
 
 Skorik S, Schöbitz L, Sagawa R, Kumpukwe P, Chinangwa V, Banda B,
 Kananji R, Bwanyula F, Maliana G, Ngwira G (2026). “chckapmalawi: KAP
