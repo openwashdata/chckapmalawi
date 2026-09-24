@@ -2,10 +2,10 @@
 
 ## Authors
 
-- **Sophia Skorik**. Author, maintainer.
-  [](https://orcid.org/0009-0001-4755-1649)
+- **Sophia Skorik**. Author. [](https://orcid.org/0009-0001-4755-1649)
 
-- **Lars Schöbitz**. Author. [](https://orcid.org/0000-0003-2196-5015)
+- **Lars Schöbitz**. Author, maintainer.
+  [](https://orcid.org/0000-0003-2196-5015)
 
 - **Rhodrick Sagawa**. Author. [](https://orcid.org/0009-0004-7294-4120)
 
@@ -27,7 +27,7 @@
 ## Citation
 
 Source:
-[`inst/CITATION`](https://github.com/openwashdata/chckapmalawi/blob/v0.0.2/inst/CITATION)
+[`inst/CITATION`](https://github.com/openwashdata/chckapmalawi/blob/main/inst/CITATION)
 
 Skorik S, Schöbitz L, Sagawa R, Kumpukwe P, Chinangwa V, Banda B,
 Kananji R, Bwanyula F, Maliana G, Ngwira G (2026). “chckapmalawi: KAP
