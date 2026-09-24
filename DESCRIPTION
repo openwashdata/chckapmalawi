@@ -2,9 +2,9 @@ Package: chckapmalawi
 Title: KAP Survey on Community Health Centers in Malawi
 Version: 0.0.2
 Authors@R: c(
-    person("Sophia", "Skorik", , "sskorik@ethz.ch", role = c("aut", "cre"),
+    person("Sophia", "Skorik", , "sskorik@ethz.ch", role = "aut",
            comment = c(ORCID = "0009-0001-4755-1649")),
-    person("Lars", "Schöbitz", , "lschoebitz@ethz.ch", role = "aut",
+    person("Lars", "Schöbitz", , "lschoebitz@ethz.ch", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-2196-5015")),
     person("Rhodrick", "Sagawa", , "rhodrick@baseflowmw.org", role = "aut",
        comment = c(ORCID = "0009-0004-7294-4120")),
