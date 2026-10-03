@@ -6,7 +6,7 @@
   "name": "KAP Survey on Community Health Centers in Malawi",
   "alternateName": "chckapmalawi",
   "description": "This dataset captures insights from a Knowledge, Attitudes, and Practices (KAP) Survey conducted by BASEflow for Waste Advisers in Malawi, focusing on Community Health Centers (CHCs). It covers diverse aspects including household demographics, CHC membership, water sources, sanitation, nutrition knowledge, hygiene practices, and environmental conditions.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "url": "https://github.com/openwashdata/chckapmalawi",
   "sameAs": "https://doi.org/10.5281/zenodo.10459432",
   "identifier": "10.5281/zenodo.10459432",
@@ -849,7 +849,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">chckapmalawi</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.2</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.3</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -874,6 +874,10 @@
       <small>Source: <a href="https://github.com/openwashdata/chckapmalawi/blob/main/NEWS.md" class="external-link"><code>NEWS.md</code></a></small>
     </div>
 
+    <div class="section level2">
+<h2 class="pkg-version" data-toc-text="0.0.3" id="chckapmalawi-003">chckapmalawi 0.0.3<a class="anchor" aria-label="anchor" href="#chckapmalawi-003"></a></h2>
+<ul><li>Removed <code>utils/plot_files</code>, the library folders of an old interactive plot export that nothing in the package uses. Its bundled <code>core-js</code> 2.5.3 manifest was the subject of three Dependabot security alerts. The data are unchanged.</li>
+</ul></div>
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="0.0.2" id="chckapmalawi-002">chckapmalawi 0.0.2<a class="anchor" aria-label="anchor" href="#chckapmalawi-002"></a></h2>
 <ul><li>Metadata-only release: CITATION.cff and inst/CITATION carry the Zenodo concept DOI and declare the work as a dataset; DESCRIPTION gains keywords, URL and BugReports; the pkgdown site is configured per the openwashdata standard and deployed from gh-pages; R CMD check runs on dev as well as main. The data are unchanged.</li>

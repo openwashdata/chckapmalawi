@@ -1,5 +1,12 @@
 # Changelog
 
+## chckapmalawi 0.0.3
+
+- Removed `utils/plot_files`, the library folders of an old interactive
+  plot export that nothing in the package uses. Its bundled `core-js`
+  2.5.3 manifest was the subject of three Dependabot security alerts.
+  The data are unchanged.
+
 ## chckapmalawi 0.0.2
 
 - Metadata-only release: CITATION.cff and inst/CITATION carry the Zenodo

@@ -43,5 +43,5 @@ Survey on Community Health Centers in Malawi.”
       url = {https://github.com/openwashdata/chckapmalawi},
       abstract = {This dataset captures insights from a Knowledge, Attitudes, and Practices (KAP) Survey conducted by BASEflow for Waste Advisers in Malawi, focusing on Community Health Centers (CHCs). It covers diverse aspects including household demographics, CHC membership, water sources, sanitation, nutrition knowledge, hygiene practices, and environmental conditions.},
       keywords = {open data,washdata,community health,KAP survey,WASH,Malawi},
-      version = {0.0.2},
+      version = {0.0.3},
     }
