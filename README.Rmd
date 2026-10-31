@@ -27,6 +27,8 @@ library(chckapmalawi)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10459432.svg)](https://zenodo.org/doi/10.5281/zenodo.10459432)
 <!-- badges: end -->
 
+A data package published by [openwashdata](https://openwashdata.org).
+
 This packages compiles insights from a Knowledge, Attitudes, and Practices (KAP) Survey conducted by [BASEflow](https://baseflowmw.org/) for Waste Advisers in Malawi, focusing on Community Health Centers (CHCs). 
 
 ## Installation
