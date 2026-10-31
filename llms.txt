@@ -1,5 +1,7 @@
 # chckapmalawi
 
+A data package published by [openwashdata](https://openwashdata.org).
+
 This packages compiles insights from a Knowledge, Attitudes, and
 Practices (KAP) Survey conducted by [BASEflow](https://baseflowmw.org/)
 for Waste Advisers in Malawi, focusing on Community Health Centers
