@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# chckapmalawi
+# chckapmalawi <a href="https://openwashdata.org"><img src="man/figures/logo.png" align="right" width="120" alt="openwashdata" /></a>
 
 <!-- badges: start -->
 
@@ -9,8 +9,6 @@
 [![R-CMD-check](https://github.com/openwashdata/chckapmalawi/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/openwashdata/chckapmalawi/actions/workflows/R-CMD-check.yaml)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10459432.svg)](https://zenodo.org/doi/10.5281/zenodo.10459432)
 <!-- badges: end -->
-
-A data package published by [openwashdata](https://openwashdata.org).
 
 This packages compiles insights from a Knowledge, Attitudes, and
 Practices (KAP) Survey conducted by [BASEflow](https://baseflowmw.org/)
@@ -258,6 +256,8 @@ Data are available as
 [CC-BY](https://github.com/openwashdata/basisghana/LICENSE.md).
 
 ## Citation
+
+Published by openwashdata, <https://openwashdata.org>.
 
 To cite this package, please use:
 
